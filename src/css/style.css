@@ -131,6 +131,21 @@ button {
   fill: gray;
 }
 
+/* Remove cart item from the cart icon */
+.remove-button {
+  margin-top: 0.5rem;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #c0392b;
+}
+
 /* End cart icon styles */
 
 .mission {
