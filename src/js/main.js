@@ -6,7 +6,6 @@ console.log(`dataSource`);
 
 console.log(dataSource);
 
-
 const element = document.querySelector(".product-list");
 
 const productList = new ProductList("Tents", dataSource, element);
