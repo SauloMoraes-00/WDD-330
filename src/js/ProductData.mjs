@@ -7,11 +7,14 @@ function convertToJson(res) {
 }
 
 export default class ProductData {
+
+  
   constructor(category) {
     this.category = category;
-    this.path = `../public/json/${this.category}.json`;
+    this.path = `../json/${this.category}.json`;
   }
   getData() {
+    console.log("ProductData");
     return fetch(this.path)
       .then(convertToJson)
       .then((data) => data);
@@ -20,4 +23,6 @@ export default class ProductData {
     const products = await this.getData();
     return products.find((item) => item.Id === id);
   }
+
+  
 }
