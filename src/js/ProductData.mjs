@@ -15,6 +15,11 @@ export default class ProductData {
   }
   getData() {
     console.log("ProductData");
+    console.log(this.category);
+    console.log(this.path);
+    
+
+    
     return fetch(this.path)
       .then(convertToJson)
       .then((data) => data);
