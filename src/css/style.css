@@ -134,7 +134,7 @@ button {
 /* Remove cart item from the cart icon */
 .remove-button {
   margin-top: 0.5rem;
-  background-color: #e74c3c;
+  background-color: #fff;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
